@@ -1,0 +1,39 @@
+a img {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  height: 80px;
+  background-color: #262526;
+}
+
+h1,
+h2 {
+  font-family: "Rajdhani", sans-serif;
+}
+
+body,
+p,
+button,
+form {
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  color: #d92332;
+  text-decoration: none; /* Supprimer le soulignement par défaut */
+}
+
+button {
+  background-color: #262526;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Styliser le formulaire pour le bouton */
+form {
+  display: inline-block; /* Permet d'afficher le bouton à côté du formulaire */
+}
